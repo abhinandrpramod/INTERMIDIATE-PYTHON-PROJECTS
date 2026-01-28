@@ -22,6 +22,7 @@ while running:
             print("The number is HIGH! TRY AGAIN")
         else:
             print("your guess is correct")
+            print(f"the number of guesses it took:{guesses}")
             break
 
     else :
